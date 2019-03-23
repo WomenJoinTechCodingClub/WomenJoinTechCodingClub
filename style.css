@@ -1,0 +1,55 @@
+.header {
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  z-index: 100;
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.header-caption {
+  font-size: 24px;
+}
+.carousel-item > div {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item:before {
+  position: fixed;
+  content: '';
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+}
+.img1 {
+  background-image: url('img/img_1.jpg');
+}
+
+.img2 {
+  background-image: url('img/img_2.jpg');
+}
+.img3 {
+  background-image: url('img/img_3.jpg');
+}
+.img4 {
+  background-image: url('img/img_4.jpg');
+}
+.img5 {
+  background-image: url('img/img_5.jpg');
+}
+.img6 {
+  background-image: url('img/img_6.jpg');
+}
+.img7 {
+  background-image: url('img/img_7.jpg');
+}
