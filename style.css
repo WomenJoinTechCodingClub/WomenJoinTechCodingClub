@@ -53,3 +53,12 @@ header {
 .img7 {
   background-image: url('img/img_7.jpg');
 }
+
+.navbar {
+  position: sticky;
+  top: 0vh;
+}
+
+section {
+  height: 100vh;
+}
