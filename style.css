@@ -24,7 +24,7 @@ header {
 }
 
 .carousel-item:before {
-  position: fixed;
+  position: absolute;
   content: '';
   background-color: black;
   height: 100%;
