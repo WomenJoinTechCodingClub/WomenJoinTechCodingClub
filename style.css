@@ -74,3 +74,17 @@ section > .container {
 .about-project .row {
   height: 100%;
 }
+
+.outcome h2 {
+  margin-top: 15%;
+}
+
+.outcome h4 {
+  margin-top: 50px;
+}
+
+.outcome .col-6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
