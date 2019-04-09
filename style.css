@@ -88,3 +88,104 @@ section > .container {
   flex-direction: column;
   text-align: center;
 }
+.credits .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.credits h2 {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.curriculum-img {
+  height: 300px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-img {
+  height: 30vh;
+  background-image: url('img/img_1.jpg');
+}
+.header-img h3 {
+  color: white;
+}
+.header-img .container {
+  height: 100%;
+}
+.header-img .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.student {
+  background-color: lavender;
+  margin: 30px;
+  padding: 25px;
+}
+.team-work-img {
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.team-work-desc {
+  padding: 25px;
+  flex: 1;
+}
+
+.other-batch {
+  height: 30vh;
+  background-color: rgb(46, 46, 46);
+}
+.other-batch div {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.other-batch a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
+}
+
+.other-batch a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+/* ================ batch 1 =================== */
+
+.batch1 .curriculum-img {
+  background-image: url('img/batch1_curriculum.png');
+}
+
+/* ================ batch 2 =================== */
+
+.batch2 .curriculum-img {
+  background-image: url('img/batch2_curriculum.png');
+}
+
+.batch2 .hsinchu .team1 .team-work-img {
+  background-image: url('img/batch2_hsinchu_team1.png');
+}
+.batch2 .hsinchu .team2 .team-work-img {
+  background-image: url('img/batch2_hsinchu_team2.png');
+}
+
+.batch2 .yilan .team1 .team-work-img {
+  background-image: url('img/batch2_yilan_team1.png');
+}
+
+.batch2 .yilan .team2 .team-work-img {
+  background-image: url('img/batch2_yilan_team2.png');
+}
+
+.batch2 .yilan .team3 .team-work-img {
+  background-image: url('img/batch2_yilan_team3.png');
+}
