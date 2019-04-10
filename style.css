@@ -116,10 +116,15 @@ section > .container {
   justify-content: center;
   align-items: center;
 }
+.batch1 h4,
+.batch2 h4 {
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
 
 .curriculum-img {
   height: 300px;
-  width: 500px;
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,16 +136,12 @@ section > .container {
   padding: 25px;
 }
 
-.student h5 {
-  margin-top: 30px;
-}
 .team-work-img {
-  display: inline-block;
+  display: block;
   height: 300px;
-  width: 500px;
-  background-size: contain;
+  width: 100%;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 .team-work-desc {
   padding: 25px;
@@ -149,12 +150,17 @@ section > .container {
 
 .other-batch {
   height: 30vh;
+  width: 100%;
+  left: 0;
+  right: 0;
   background-color: rgb(46, 46, 46);
 }
-.other-batch div {
+.other-batch .row {
   height: 100%;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0;
 }
 .other-batch a {
   color: rgba(255, 255, 255, 0.5);
