@@ -201,11 +201,16 @@ a:visited {
 }
 
 @media (max-width: 576px) {
-  .about-us .title {
+  .about-us-title {
     order: 1;
-    text-align: left;
   }
-  .about-us .description {
+  .about-us-description {
     order: 2;
+  }
+  .about-project-title {
+    order: 3;
+  }
+  .about-project-description {
+    order: 4;
   }
 }
