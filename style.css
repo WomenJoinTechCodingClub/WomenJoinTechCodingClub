@@ -147,6 +147,7 @@ a:visited {
 }
 
 .other-batch {
+  margin-top: 3rem;
   height: 30vh;
   width: 100%;
   left: 0;
@@ -174,6 +175,26 @@ a:visited {
   background-image: url('img/batch1_curriculum.png');
 }
 
+.batch1 .hsinchu .team1 .team-work-img {
+  background-image: url('img/batch1_hsinchu_team1.png');
+}
+.batch1 .hsinchu .team2 .team-work-img {
+  background-image: url('img/batch1_hsinchu_team2.png');
+}
+.batch1 .hsinchu .team3 .team-work-img {
+  background-image: url('img/batch1_hsinchu_team3.png');
+}
+.batch1 .yilan .team1 .team-work-img {
+  background-image: url('img/batch1_yilan_team1.png');
+}
+
+.batch1 .yilan .team2 .team-work-img {
+  background-image: url('img/batch1_yilan_team2.png');
+}
+
+.batch1 .yilan .team3 .team-work-img {
+  background-image: url('img/batch1_yilan_team3.png');
+}
 /* ================ batch 2 =================== */
 
 .batch2 .curriculum-img {
