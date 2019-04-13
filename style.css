@@ -65,39 +65,28 @@ section {
   padding-top: 70px;
 }
 
-section > .container {
-  height: 100%;
-}
-.about-us .row {
-  height: 50%;
-}
-.about-project .row {
-  height: 100%;
-}
-
-.outcome h2 {
-  margin-top: 15%;
-}
-
-.outcome h4 {
-  margin-top: 50px;
-}
-
-.outcome .col-6 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.credits .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.credits h2 {
+h2 {
   margin: auto;
   margin-bottom: 30px;
+}
+mark {
+  background-color: rgba(250, 114, 104, 0.3);
+}
+a {
+  color: rgba(250, 114, 104, 0.8);
+}
+a:hover {
+  color: rgba(250, 114, 104, 1);
+}
+a:visited {
+  color: rgba(250, 114, 104, 0.8);
+}
+
+.team h5 {
+  margin-top: 3rem;
+}
+.outcome a {
+  color: #000;
 }
 
 .header-img {
@@ -199,4 +188,14 @@ section > .container {
 
 .batch2 .yilan .team3 .team-work-img {
   background-image: url('img/batch2_yilan_team3.png');
+}
+
+@media (max-width: 576px) {
+  .about-us .title {
+    order: 1;
+    text-align: left;
+  }
+  .about-us .description {
+    order: 2;
+  }
 }
