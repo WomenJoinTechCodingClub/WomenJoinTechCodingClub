@@ -172,52 +172,52 @@ a:visited {
 /* ================ batch 1 =================== */
 
 .batch1 .curriculum-img {
-  background-image: url('img/batch1_curriculum.png');
+  background-image: url('img/batch1_curriculum.jpg');
 }
 
 .batch1 .hsinchu .team1 .team-work-img {
-  background-image: url('img/batch1_hsinchu_team1.png');
+  background-image: url('img/batch1_hsinchu_team1.jpg');
 }
 .batch1 .hsinchu .team2 .team-work-img {
-  background-image: url('img/batch1_hsinchu_team2.png');
+  background-image: url('img/batch1_hsinchu_team2.jpg');
 }
 .batch1 .hsinchu .team3 .team-work-img {
-  background-image: url('img/batch1_hsinchu_team3.png');
+  background-image: url('img/batch1_hsinchu_team3.jpg');
 }
 .batch1 .yilan .team1 .team-work-img {
-  background-image: url('img/batch1_yilan_team1.png');
+  background-image: url('img/batch1_yilan_team1.jpg');
 }
 
 .batch1 .yilan .team2 .team-work-img {
-  background-image: url('img/batch1_yilan_team2.png');
+  background-image: url('img/batch1_yilan_team2.jpg');
 }
 
 .batch1 .yilan .team3 .team-work-img {
-  background-image: url('img/batch1_yilan_team3.png');
+  background-image: url('img/batch1_yilan_team3.jpg');
 }
 /* ================ batch 2 =================== */
 
 .batch2 .curriculum-img {
-  background-image: url('img/batch2_curriculum.png');
+  background-image: url('img/batch2_curriculum.jpg');
 }
 
 .batch2 .hsinchu .team1 .team-work-img {
-  background-image: url('img/batch2_hsinchu_team1.png');
+  background-image: url('img/batch2_hsinchu_team1.jpg');
 }
 .batch2 .hsinchu .team2 .team-work-img {
-  background-image: url('img/batch2_hsinchu_team2.png');
+  background-image: url('img/batch2_hsinchu_team2.jpg');
 }
 
 .batch2 .yilan .team1 .team-work-img {
-  background-image: url('img/batch2_yilan_team1.png');
+  background-image: url('img/batch2_yilan_team1.jpg');
 }
 
 .batch2 .yilan .team2 .team-work-img {
-  background-image: url('img/batch2_yilan_team2.png');
+  background-image: url('img/batch2_yilan_team2.jpg');
 }
 
 .batch2 .yilan .team3 .team-work-img {
-  background-image: url('img/batch2_yilan_team3.png');
+  background-image: url('img/batch2_yilan_team3.jpg');
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .outcome {
