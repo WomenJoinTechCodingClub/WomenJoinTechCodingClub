@@ -61,9 +61,8 @@ header {
 }
 
 section {
-  min-height: 100vh;
+  height: 100vh;
   padding-top: 70px;
-  position: relative;
 }
 
 h2 {
@@ -199,7 +198,11 @@ a:visited {
 .batch2 .yilan .team3 .team-work-img {
   background-image: url('img/batch2_yilan_team3.png');
 }
-
+@media (min-width: 576px) and (max-width: 768px) {
+  .outcome {
+    height: 150%;
+  }
+}
 @media (max-width: 576px) {
   .about-us-title {
     order: 1;
@@ -212,5 +215,8 @@ a:visited {
   }
   .about-project-description {
     order: 4;
+  }
+  .outcome {
+    height: 200%;
   }
 }
